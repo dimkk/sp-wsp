@@ -1,0 +1,35 @@
+{
+  "name": "sp-wsp",
+  "version": "0.0.0",
+  "description": "My mind-blowing module",
+  "license": "MIT",
+  "repository": "dimkk/sp-wsp",
+  "author": {
+    "name": "dimkk",
+    "email": "dimkk@outlook.com",
+    "url": "dimkk.ru"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
